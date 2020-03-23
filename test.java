@@ -474,18 +474,7 @@ public class test{
 
 		/////////////////////////////////////////////////////Decomposition into x+1////////////////////////////////////////////////////////////////
 		
-		String duplicate_attr  = new String();                 // duplicate string containing all attributes.
-		duplicate_attr = total_attr;
-
-		for(int i=0;i<left.size();i++){
-			if(max_normal[i]==normal_form){
-				String removal = sortString(right.get(i).toString());
-				for(int j=0;j<removal.length();j++){
-					char ch_remove = removal.charAt(j);
-					duplicate_attr.replace(ch_remove,"");
-				}
-			}
-		}
+		
 
 	}
 }
